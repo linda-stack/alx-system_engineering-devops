@@ -1,9 +1,2 @@
 #!/bin/bash
-$ pwd
-/tmp
-$ cd /var
-$ pwd
-/var
-$ cd "$OLDPWD"
-$ pwd
-/tmp
+cd "$OLDPWD"

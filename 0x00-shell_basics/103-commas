@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1a | sort -df | awk '{printf("%s%s",sep,$0); sep=", "}; END{print ""}' | sed -e 's/^.\{1\}/&\//' -e '1s/^/.\//' -e '2s/^/..\//'

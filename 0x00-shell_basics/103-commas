@@ -1,3 +1,2 @@
 #!/bin/bash
 ls -1ap | awk '{printf "%s%s", $0~/\/$/ ? $0 : $0", ";} END{printf "\n"}'
-

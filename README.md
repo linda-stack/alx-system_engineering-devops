@@ -1,1 +1,1 @@
-# My second repository: devops engineering
+This is my second shell project
